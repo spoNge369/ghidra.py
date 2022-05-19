@@ -7,6 +7,9 @@ Automation for the creation of a project in ghidra from python3 adapted for bspw
 ```bash
 chmod +x ghidra.py
 cp ghidra.py /usr/bin/ghidra.py
+
 ghidra.py binary.exe
 ghidra.py binary.gpr
+
+ghidra.py binary.exe -t  # -t o --temp saves the files in /dev/shm
 ```
