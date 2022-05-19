@@ -8,7 +8,7 @@ import itertools as IT
 import select
 from time import sleep
 
-PROJECT_DIRECTORY = '/dev/shm/'
+PROJECT_DIRECTORY = '/dev/shm'
 GHIDRA_PATH = '/usr/share/ghidra/'
 
 def uniquify(path, sep = ''):
