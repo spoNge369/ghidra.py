@@ -28,8 +28,8 @@ def uniquify(path, sep = ''):
     return filename
 
 def shouldRun():
-    click.secho('Will run analysis in 3 seconds, press any key to cancel', fg='green')
-    i, o, e = select.select( [sys.stdin], [], [], 3 )
+    click.secho('Will run analysis in 1 seconds, press any key to cancel', fg='green')
+    i, o, e = select.select( [sys.stdin], [], [], 1 )
 
     if (i):
         return False
